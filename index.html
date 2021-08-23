@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Site</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Source+Code+Pro&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/e0a959918d.js" crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="nav-bar" id="navbar">
+      <div class="logo"><img src="/images/LogoMakr-6arEHb.png" alt="Logo" /></div>
+      <div class="nav-item">
+        <a href="#project">Project</a>
+        <a href="#about">About</a>
+        <a href="#home">Home</a>
+      </div>
+    </header>
+    <section class="intro" id="home">
+      <h1 class="section-title section-title-intro">Hello, I am <strong>Zhin Yen Ng</strong></h1>
+      <p class="section-subtitle section-subtitle-intro">Computer Science Student</p>
+      <img class="intro-image" src="/images/Masked.jpg" alt="My picture 1" />
+    </section>
+    <section class="about" id="about">
+      <h2 class="section-title section-title-about">About Me</h2>
+      <p class="section-subtitle section-subtitle-about">Second year student looking for opportunity</p>
+      <p>
+        I am a second year student in Universiti Tun Hussein Onn Malaysia (UTHM). The skills I have are HTML, CSS,
+        JavaScript, Java and SQL. I am passionate about web and mobile development. Getting to see my work slowly build
+        up brings me joy. Currently, I am learning and implementing JavaScript by doing some pet projects. I am also
+        looking for an internship to gain experience.
+      </p>
+      <a href="/images/Resume.pdf" download="ResumeZYNg"
+        ><button class="download-resume-button">Download resume</button></a
+      >
+      <img class="about-image" src="/images/Professional Picture.jpg" alt="My picture 2" />
+    </section>
+    <section class="project" id="project">
+      <h2 class="section-title section-title-project">My Projects</h2>
+      <div class="portfolio">
+        <div class="portfolio-item">
+          <h3>Calculator</h3>
+          <ul>
+            <li>Built a calculator with basic operations</li>
+            <li>Developed with HTML, CSS and JavaScript</li>
+          </ul>
+          <a href="https://devnic-calculator.netlify.app/"><button class="demo-button">Demo</button></a>
+        </div>
+        <div class="portfolio-item">
+          <h3>Quiz System</h3>
+          <ul>
+            <li>Built a quiz system with user authentication and registration, quiz and assignment management</li>
+            <li>Developed with Java and Oracle</li>
+            <li>Worked with 2 members</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <div class="footer">
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a href="https://www.linkedin.com/in/nicholas-ng-zy" class="social-list-link"
+            ><i class="fab fa-linkedin fa-2x"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a href="https://github.com/nicholasngzy" class="social-list-link"
+            ><i class="fab fa-github-square fa-2x"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a href="mailto:nicholasngzy@gmail.com" class="social-list-link"><i class="fas fa-envelope fa-2x"></i></a>
+        </li>
+        <li class="social-list__item">
+          <a href="https://www.instagram.com/nickng14" class="social-list-link"
+            ><i class="fab fa-instagram-square fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+      <p>Coded by ZY Ng</p>
+    </div>
+  </body>
+</html>
