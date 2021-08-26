@@ -255,8 +255,8 @@ header {
 @media (min-width: 800px) {
   .portfolio {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 1em;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 0.5em;
     margin: 0 auto;
   }
   .portfolio-item h3 {
