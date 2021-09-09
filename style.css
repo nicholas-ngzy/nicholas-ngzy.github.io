@@ -17,7 +17,7 @@
   --fs-body: 1rem;
   --bs: 0.25em 0.25em 0.75em rgba(0, 0, 0, 0.25), 0.125em 0.125em 0.25em rgba(0, 0, 0, 0.15);
 }
-@media (min-width: 800px) {
+@media (min-width: 481px) {
   :root {
     --fs-h1: 4.5rem;
     --fs-h2: 3.75rem;
@@ -32,13 +32,14 @@ body {
   background-color: var(--clr-light);
   color: var(--clr-dark);
   font-family: var(--ff-primary);
-  margin: 0;
   font-size: var(--fs-body);
   line-height: 1.6;
+  margin: 0;
 }
 section {
   min-height: 100vh;
-  padding: 5em 1em;
+  padding: 3em 0 1em;
+  width: 90%;
 }
 img {
   display: block;
@@ -74,31 +75,30 @@ h3 {
   display: block;
 }
 .section-subtitle {
-  font-size: var(--fs-h3);
+  font-size: var(--fs-body);
   background-color: var(--clr-accent);
   font-family: var(--ff-secondary);
-  padding: 0.25em 1em;
-  margin-bottom: 1em;
+  padding: 0.25em 0.5em;
 }
 
 /* navbar */
 header {
   display: flex;
-  font-size: var(--fs-h3);
+  font-size: var(--fs-body);
   background-color: var(--clr-accent);
   justify-content: space-between;
+  align-items: center;
   z-index: 100;
 }
 .logo img {
-  max-width: 150px;
-  vertical-align: middle;
+  max-width: 80px;
   padding: 0.5em;
 }
 .nav-item a {
   text-decoration: none;
   text-align: center;
   color: var(--clr-dark);
-  padding: 0.5rem 1.5rem;
+  padding: 0.5rem;
   float: right;
 }
 .sticky {
@@ -109,12 +109,22 @@ header {
 .nav-item a:hover {
   background-color: var(--clr-light);
 }
+@media (min-width: 481px) {
+  .logo img {
+    max-width: 150px;
+    padding: 0.5rem 1.5rem;
+  }
+  .nav-item a {
+    padding: 0.5rem 1.5rem;
+  }
+}
 
 /* intro section */
 .intro {
   position: relative;
   width: 100%;
   text-align: center;
+  margin: 2em 0;
 }
 .intro-image {
   box-shadow: var(--bs);
@@ -124,11 +134,12 @@ header {
   display: inline-block;
   width: 90%;
 }
-@media (min-width: 600px) {
+@media (min-width: 768px) {
   .intro {
     display: grid;
     width: min-content;
     margin: 0 auto;
+    padding-top: 10%;
     grid-column-gap: 4em;
     grid-template-areas: 'img title' 'img subtitle';
     grid-template-columns: 250px max-content;
@@ -172,24 +183,24 @@ header {
   width: 15em;
   padding: 0.5em;
   margin-bottom: 1em;
-  background-color: var(--clr-dark);
-  color: var(--clr-light);
+  background-color: var(--clr-accent);
+  color: var(--clr-dark);
   border-radius: 1.5em;
   font-size: var(--fs-body);
   font-family: var(--ff-secondary);
-  align-content: center;
 }
 .download-resume-button:hover {
   cursor: pointer;
   opacity: 0.7;
 }
-@media (min-width: 600px) {
+@media (min-width: 768px) {
   .about {
     display: grid;
     grid-template-columns: 1fr 250px;
     grid-template-areas: 'title img' 'subtitle img' 'text img';
     grid-column-gap: 2em;
     text-align: start;
+    padding-top: 10%;
   }
   .section-title-about {
     grid-area: title;
@@ -216,6 +227,7 @@ header {
 .project {
   text-align: center;
   min-height: 80vh;
+  margin: 0 auto;
 }
 .project ul {
   list-style-type: none;
@@ -233,7 +245,7 @@ header {
 .portfolio-item {
   max-width: 100%;
   padding: 1em 0;
-  margin: 1em;
+  margin: 1em 0;
   border: 2px solid var(--clr-dark);
   border-radius: 1em;
   box-shadow: var(--bs);
@@ -242,8 +254,8 @@ header {
   width: 10em;
   margin: 1em;
   padding: 0.5em;
-  background-color: var(--clr-dark);
-  color: var(--clr-light);
+  background-color: var(--clr-accent);
+  color: var(--clr-dark);
   border-radius: 1.5em;
   font-size: var(--fs-body);
   font-family: var(--ff-secondary);
@@ -252,12 +264,11 @@ header {
   cursor: pointer;
   opacity: 0.7;
 }
-@media (min-width: 800px) {
+@media (min-width: 768px) {
   .portfolio {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 0.5em;
-    margin: 0 auto;
   }
   .portfolio-item h3 {
     padding-bottom: 0.5em;
@@ -286,5 +297,6 @@ header {
 }
 .fab:hover,
 .fas:hover {
-  opacity: 0.7;
+  opacity: 0.6;
+  color: var(--clr-accent);
 }
