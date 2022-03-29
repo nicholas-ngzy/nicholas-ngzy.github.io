@@ -14,15 +14,15 @@
 .icon-link:hover {
   opacity: 0.6;
 }
+@media only screen and (min-width: 768px) {
+  .project {
+    height: 100vh;
+  }
+}
 /* body {
   padding-top: 56px;
 } */
-.intro,
-.project,
-.contact {
-  overflow: auto;
-  height: calc(100vh-56px);
-}
+
 /* home */
 .wrapper .dynamic-text {
   height: 1.5em;

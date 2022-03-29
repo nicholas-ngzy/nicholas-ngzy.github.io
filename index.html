@@ -68,7 +68,7 @@
         </div>
       </div>
     </section>
-    <section class="about bg-light py-3 mt-5 vh-100" id="about">
+    <section class="about bg-light vh-100" id="about">
       <div class="container">
         <h2 class="py-5 text-center">About Me</h2>
         <p class="width-70">
@@ -135,7 +135,7 @@
                 </div>
               </div>
             </div>
-            <div class="text-center m-5">
+            <div class="text-center mt-3 m-lg-5">
               <a href="/images/Resume-ZYNg.pdf" download="Resume-ZYNg">
                 <button type="button" class="btn btn-primary"><i class="fa-solid fa-file"></i> Download Resume</button>
               </a>
@@ -144,13 +144,13 @@
         </div>
       </div>
     </section>
-    <section class="project bg-dark text-light vh-100" id="project">
+    <section class="project bg-dark text-light text-center" id="project">
       <div class="container">
-        <h2 class="text-light text-center font-weight-bold py-3 mt-5">My Projects</h2>
-        <p class="text-center text-muted">Some of the projects I completed in the past.</p>
-        <div class="container text-white">
-          <div class="row text-center">
-            <div class="col-lg-4 col-md-12">
+        <h2 class="font-weight-bold pt-5 pb-2">My Projects</h2>
+        <p class="text-muted">Some of the projects I completed in the past.</p>
+        <div class="card-group py-5">
+          <div class="row">
+            <div class="card col-lg-4 col-12 bg-dark text-light border-dark">
               <div class="view overlay">
                 <img src="./images/JSCalculator.jpg" class="img-fluid rounded" alt="JS Calculator" />
               </div>
@@ -176,7 +176,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 col-md-12">
+            <div class="card col-lg-4 col-12 bg-dark text-light border-dark">
               <div class="view overlay">
                 <img src="./images/F1MemeGen.png" class="img-fluid rounded" alt="F1 Meme Generator" />
               </div>
@@ -199,9 +199,9 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 col-md-12">
+            <div class="card col-lg-4 col-12 bg-dark text-light border-dark">
               <div class="view overlay">
-                <img src="./images/JSCalculator.jpg" class="img-fluid rounded" alt="JS Calculator" />
+                <img src="" class="img-fluid rounded" alt="" />
               </div>
               <div class="card-body h-75 d-flex flex-column flex-1 m-0">
                 <h4 class="font-weight-bold">Quiz System</h4>
@@ -210,20 +210,14 @@
                   <li>Collaborated with 2 other team members.</li>
                   <li>Java and Oracle.</li>
                 </ul>
-                <div class="mt-auto">
-                  <a
-                    href="https://devnic-calculator.netlify.app/"
-                    target="_blank"
-                    class="btn btn-warning btn-sm mt-auto"
+                <!-- <div class="mt-auto">
+                  <a href="" target="_blank" class="btn btn-warning btn-sm mt-auto disabled"
                     ><i class="fa-solid fa-desktop"></i> Project</a
                   >
-                  <a
-                    href="https://github.com/nicholas-ngzy/calculator"
-                    target="_blank"
-                    class="btn btn-warning btn-sm mt-auto"
+                  <a href="" target="_blank" class="btn btn-warning btn-sm mt-auto disabled"
                     ><i class="fa-solid fa-code"></i> Code</a
                   >
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
@@ -231,7 +225,7 @@
       </div>
     </section>
     <section class="contact bg-light" id="contact">
-      <div class="container my-4">
+      <div class="container py-4">
         <h2>Contact Me</h2>
         <p class="text-muted">I would love to hear more from you.</p>
         <form name="feedback" method="POST" data-netlify="true">
@@ -247,7 +241,7 @@
             <label for="message" class="form-label">Message</label>
             <textarea class="form-control" id="message" cols="30" rows="5" name="subject"></textarea>
           </div>
-          <div class="text-center m-5">
+          <div class="text-center mt-5 mb-3">
             <button class="btn btn-primary" type="submit"><i class="fa-solid fa-paper-plane"></i> Send</button>
           </div>
         </form>
