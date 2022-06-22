@@ -5,6 +5,9 @@
   scroll-behavior: smooth;
   font-family: 'Poppins', sans-serif;
 }
+nav {
+  background-color: #ccb79f;
+}
 .navbar-brand {
   font-family: 'Grand Hotel', cursive;
 }
@@ -14,16 +17,16 @@
 .icon-link:hover {
   opacity: 0.6;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1024px) {
   .project {
     height: 100vh;
   }
 }
-/* body {
-  padding-top: 56px;
-} */
-
 /* home */
+.intro {
+  background-image: url(./assets/SF5.jpg);
+  background-position: top;
+}
 .wrapper .dynamic-text {
   height: 1.5em;
   line-height: 1.5em;
@@ -49,7 +52,7 @@
   height: 100%;
   width: 100%;
   border-left: 2px solid white;
-  background-color: #212529;
+  background-color: #cfc8ac;
   animation: typing 2s steps(8) infinite;
 }
 @keyframes typing {

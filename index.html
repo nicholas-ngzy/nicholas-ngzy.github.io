@@ -23,10 +23,10 @@
     <script src="script.js" defer></script>
   </head>
   <body>
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color: #f7ce3e">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light">
       <div class="container-fluid">
         <span class="navbar-brand">Zhin Yen Ng</span>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <button class="navbar-toggler text-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -39,15 +39,15 @@
         </div>
       </div>
     </nav>
-    <section class="intro bg-dark text-light vh-100 d-flex justify-content-center align-items-center" id="home">
+    <section class="intro vh-100 d-flex justify-content-center align-items-center" id="home">
       <div class="container">
         <div class="d-flex flex-column justify-content-center align-items-center text-center">
           <div>
             <p class="h1 my-5 mono-text">Hello World!</p>
             <p class="h3 m-3">I'm <strong>Zhin Yen Ng</strong></p>
             <div class="d-inline-flex justify-content-center wrapper mt-2 mb-4">
-              <p class="text-end text-muted">I'm a</p>
-              <ul class="px-2 text-warning dynamic-text">
+              <p class="text-end">I'm a</p>
+              <ul class="px-2 text-danger dynamic-text">
                 <li class="list-unstyled text-start"><span>CS Student</span></li>
                 <li class="list-unstyled text-start"><span>Developer</span></li>
                 <li class="list-unstyled text-start"><span>Freelancer</span></li>
@@ -55,13 +55,13 @@
             </div>
             <div class="social-list d-flex justify-content-between mx-auto px-1">
               <a href="https://www.linkedin.com/in/nicholas-ngzy" class="social-list-link"
-                ><i class="fa-brands fa-linkedin-in fa-xl text-light icon-link"></i
+                ><i class="fa-brands fa-linkedin-in fa-xl text-dark icon-link"></i
               ></a>
               <a href="https://github.com/nicholas-ngzy" class="social-list-link"
-                ><i class="fa-brands fa-github fa-xl text-light icon-link"></i
+                ><i class="fa-brands fa-github fa-xl text-dark icon-link"></i
               ></a>
               <a href="mailto:nicholasngzy@gmail.com" class="social-list-link"
-                ><i class="fa-solid fa-at fa-xl text-light icon-link"></i
+                ><i class="fa-solid fa-at fa-xl text-dark icon-link"></i
               ></a>
             </div>
           </div>
@@ -89,6 +89,7 @@
                   <ul>
                     <li>HyperText Markup Language (HTML)</li>
                     <li>Cascading Style Sheets (CSS)</li>
+                    <li>Bootstrap</li>
                     <li>JavaScript</li>
                     <li>React.js</li>
                   </ul>
@@ -131,6 +132,27 @@
                   <ul>
                     <li>Git</li>
                     <li>Postman</li>
+                    <li>Figma</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFour">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour"
+                >
+                  Database
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionSkills">
+                <div class="accordion-body">
+                  <ul>
+                    <li>MongoDB</li>
+                    <li>MySQL</li>
                   </ul>
                 </div>
               </div>
@@ -152,25 +174,47 @@
           <div class="row">
             <div class="card col-lg-4 col-12 bg-dark text-light border-dark">
               <div class="view overlay">
-                <img src="./assets/JSCalculator.jpg" class="img-fluid rounded" alt="JS Calculator" />
+                <img src="./assets/MEA.png" class="img-fluid rounded" alt="JS Calculator" />
+              </div>
+              <div class="card-body h-75 d-flex flex-column flex-1 m-0">
+                <h4 class="font-weight-bold">MEA Aquaponics</h4>
+                <ul class="text-start">
+                  <li>E-commerce system with forum feature.</li>
+                  <li>Allows user to buy aquaponics accessories.</li>
+                  <li>Allows user to discuss about aquaponic.</li>
+                  <li>MongoDB, Express.js, React.js and Node.js.</li>
+                </ul>
+                <div class="mt-auto">
+                  <a href="https://mea-aquaponics.netlify.app/" target="_blank" class="btn btn-light btn-sm mt-auto"
+                    ><i class="fa-solid fa-desktop"></i> Project</a
+                  >
+                  <a
+                    href="https://github.com/nicholas-ngzy/oxyganates"
+                    target="_blank"
+                    class="btn btn-light btn-sm mt-auto"
+                    ><i class="fa-solid fa-code"></i> Code</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="card col-lg-4 col-12 bg-dark text-light border-dark">
+              <div class="view overlay">
+                <img src="./assets/Calculator.png" class="img-fluid rounded" alt="JS Calculator" />
               </div>
               <div class="card-body h-75 d-flex flex-column flex-1 m-0">
                 <h4 class="font-weight-bold">JS Calculator</h4>
-                <ul class="text-start list-unstyled">
+                <ul class="text-start">
                   <li>Calculator with all standard operations.</li>
                   <li>HTML, CSS and JavaScript.</li>
                 </ul>
                 <div class="mt-auto">
-                  <a
-                    href="https://devnic-calculator.netlify.app/"
-                    target="_blank"
-                    class="btn btn-warning btn-sm mt-auto"
+                  <a href="https://devnic-calculator.netlify.app/" target="_blank" class="btn btn-light btn-sm mt-auto"
                     ><i class="fa-solid fa-desktop"></i> Project</a
                   >
                   <a
                     href="https://github.com/nicholas-ngzy/calculator"
                     target="_blank"
-                    class="btn btn-warning btn-sm mt-auto"
+                    class="btn btn-light btn-sm mt-auto"
                     ><i class="fa-solid fa-code"></i> Code</a
                   >
                 </div>
@@ -182,42 +226,21 @@
               </div>
               <div class="card-body h-75 d-flex flex-column flex-1 m-0">
                 <h4 class="font-weight-bold">F1 Meme Generator</h4>
-                <ul class="text-start list-unstyled">
+                <ul class="text-start">
                   <li>Random meme generator that fetches F1 related memes from Reddit.</li>
                   <li>HTML, CSS, JavaScript and Application Programming Interface (API).</li>
                 </ul>
                 <div class="mt-auto">
-                  <a href="https://devnic-f1memegen.netlify.app/" target="_blank" class="btn btn-warning btn-sm mt-auto"
+                  <a href="https://devnic-f1memegen.netlify.app/" target="_blank" class="btn btn-light btn-sm mt-auto"
                     ><i class="fa-solid fa-desktop"></i> Project</a
                   >
                   <a
                     href="https://github.com/nicholas-ngzy/f1-meme-generator"
                     target="_blank"
-                    class="btn btn-warning btn-sm mt-auto"
+                    class="btn btn-light btn-sm mt-auto"
                     ><i class="fa-solid fa-code"></i> Code</a
                   >
                 </div>
-              </div>
-            </div>
-            <div class="card col-lg-4 col-12 bg-dark text-light border-dark">
-              <div class="view overlay">
-                <img src="" class="img-fluid rounded" alt="" />
-              </div>
-              <div class="card-body h-75 d-flex flex-column flex-1 m-0">
-                <h4 class="font-weight-bold">Quiz System</h4>
-                <ul class="text-start list-unstyled">
-                  <li>Quiz system with user authentication and registration, quiz and assignment management.</li>
-                  <li>Collaborated with 2 other team members.</li>
-                  <li>Java and Oracle.</li>
-                </ul>
-                <!-- <div class="mt-auto">
-                  <a href="" target="_blank" class="btn btn-warning btn-sm mt-auto disabled"
-                    ><i class="fa-solid fa-desktop"></i> Project</a
-                  >
-                  <a href="" target="_blank" class="btn btn-warning btn-sm mt-auto disabled"
-                    ><i class="fa-solid fa-code"></i> Code</a
-                  >
-                </div> -->
               </div>
             </div>
           </div>
@@ -228,7 +251,7 @@
       <div class="container py-4">
         <h2>Contact Me</h2>
         <p class="text-muted">I would love to hear more from you.</p>
-        <form name="feedback" method="POST" data-netlify="true">
+        <form name="feedback" method="POST" action="https://formspree.io/f/xqknopvb">
           <div class="mb-3">
             <label for="name" class="form-label">Name</label>
             <input type="text" class="form-control" id="name" name="name" />
@@ -239,7 +262,7 @@
           </div>
           <div class="mb-3">
             <label for="message" class="form-label">Message</label>
-            <textarea class="form-control" id="message" cols="30" rows="5" name="subject"></textarea>
+            <textarea class="form-control" id="message" cols="30" rows="5" name="message"></textarea>
           </div>
           <div class="text-center mt-5 mb-3">
             <button class="btn btn-primary" type="submit"><i class="fa-solid fa-paper-plane"></i> Send</button>
