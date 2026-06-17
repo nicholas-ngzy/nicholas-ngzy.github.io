@@ -1,69 +1,82 @@
 * {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-  scroll-behavior: smooth;
-  font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    font-family: Poppins, sans-serif;
 }
+
 .navbar-brand {
-  font-family: 'Grand Hotel', cursive;
+    font-family: 'Grand Hotel', cursive;
 }
+
 .mono-text {
-  font-family: 'VT323', monospace;
+    font-family: 'VT323', monospace;
 }
+
 .icon-link:hover {
-  opacity: 0.6;
+    opacity: 0.6;
 }
+
 nav,
 .project {
-  background-color: #add8e6;
+    background-color: #add8e6;
 }
+
 .about,
 .contact,
 .footer {
-  background-color: #fcf6f5ff;
+    background-color: #fcf6f5ff;
 }
-@media only screen and (min-width: 1024px) {
-  .project {
-    height: 100vh;
-  }
+
+@media only screen and (width >= 1024px) {
+    .project {
+        height: 100vh;
+    }
 }
+
 /* home */
 .intro {
-  background-image: url(./assets/SF5.jpg);
-  background-position: top;
+    background-image: url('./assets/SF5.jpg');
+    background-position: top;
 }
+
 .wrapper .dynamic-text {
-  height: 1.5em;
-  line-height: 1.5em;
-  overflow: hidden;
+    height: 1.5em;
+    line-height: 1.5em;
+    overflow: hidden;
 }
+
 .dynamic-text li {
-  position: relative;
-  animation: slide 6s steps(3) infinite;
-  top: 0;
+    position: relative;
+    animation: slide 6s steps(3) infinite;
+    top: 0;
 }
+
 @keyframes slide {
-  100% {
-    top: -4.5em;
-  }
+    100% {
+        top: -4.5em;
+    }
 }
+
 .dynamic-text li span {
-  position: relative;
+    position: relative;
 }
+
 .dynamic-text li span::after {
-  content: '';
-  position: absolute;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  border-left: 2px solid white;
-  background-color: #cfc8ac;
-  animation: typing 2s steps(8) infinite;
+    content: '';
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border-left: 2px solid white;
+    background-color: #cfc8ac;
+    animation: typing 2s steps(8) infinite;
 }
+
 @keyframes typing {
-  100% {
-    left: 100%;
-    margin: 0 10px 0 15px;
-  }
+    100% {
+        left: 100%;
+        margin: 0 10px 0 15px;
+    }
 }
