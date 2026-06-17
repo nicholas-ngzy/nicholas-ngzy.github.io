@@ -1,422 +1,365 @@
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Nicholas Ng</title>
-		<link rel="stylesheet" href="style.css" />
-		<link
-			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-			rel="stylesheet"
-			integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
-			crossorigin="anonymous"
-		/>
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link
-			href="https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Poppins&family=VT323&display=swap"
-			rel="stylesheet"
-		/>
-		<link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png" />
-		<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png" />
-		<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png" />
-		<link rel="manifest" href="/assets/site.webmanifest" />
-	</head>
-	<body>
-		<nav class="navbar fixed-top navbar-expand-lg navbar-light">
-			<div class="container-fluid">
-				<span class="navbar-brand">Nicholas Ng</span>
-				<button
-					class="navbar-toggler text-light"
-					type="button"
-					data-bs-toggle="collapse"
-					data-bs-target="#navbar-nav"
-				>
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse" id="navbar-nav">
-					<div class="navbar-nav">
-						<a href="#home" class="nav-link mx-2">Home</a>
-						<a href="#about" class="nav-link mx-2">About</a>
-						<a href="#project" class="nav-link mx-2">Project</a>
-						<a href="#contact" class="nav-link mx-2">Contact</a>
-					</div>
-				</div>
-			</div>
-		</nav>
-		<section class="intro vh-100 d-flex justify-content-center align-items-center" id="home">
-			<div class="container">
-				<div class="d-flex flex-column justify-content-center align-items-center text-center">
-					<div>
-						<p class="h1 my-5 mono-text">Hello World!</p>
-						<p class="h3 m-3">I'm <strong>Nicholas Ng</strong></p>
-						<div class="d-inline-flex justify-content-center wrapper mt-2 mb-4">
-							<p class="text-end">I am a</p>
-							<ul class="px-2 text-danger dynamic-text">
-								<li class="list-unstyled text-start">
-									<span>Software Engineer</span>
-								</li>
-								<li class="list-unstyled text-start">
-									<span>Developer</span>
-								</li>
-								<li class="list-unstyled text-start">
-									<span>Cloudgazer</span>
-								</li>
-							</ul>
-						</div>
-						<div class="social-list d-flex justify-content-between mx-auto px-1">
-							<a class="icon-link social-list-link" href="https://www.linkedin.com/in/nicholas-ngzy">
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									width="16"
-									height="16"
-									fill="currentColor"
-									class="bi bi-linkedin"
-									viewBox="0 0 16 16"
-								>
-									<path
-										d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"
-									/>
-								</svg>
-								LinkedIn
-							</a>
-							<a class="icon-link social-list-link" href="https://github.com/nicholas-ngzyy">
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									width="16"
-									height="16"
-									fill="currentColor"
-									class="bi bi-github"
-									viewBox="0 0 16 16"
-								>
-									<path
-										d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"
-									/>
-								</svg>
-								Github
-							</a>
-							<a class="icon-link social-list-link" href="mailto:nicholasngzy@gmail.com">
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									width="16"
-									height="16"
-									fill="currentColor"
-									class="bi bi-envelope-at-fill"
-									viewBox="0 0 16 16"
-								>
-									<path
-										d="M2 2A2 2 0 0 0 .05 3.555L8 8.414l7.95-4.859A2 2 0 0 0 14 2zm-2 9.8V4.698l5.803 3.546zm6.761-2.97-6.57 4.026A2 2 0 0 0 2 14h6.256A4.5 4.5 0 0 1 8 12.5a4.49 4.49 0 0 1 1.606-3.446l-.367-.225L8 9.586zM16 9.671V4.697l-5.803 3.546.338.208A4.5 4.5 0 0 1 12.5 8c1.414 0 2.675.652 3.5 1.671"
-									/>
-									<path
-										d="M15.834 12.244c0 1.168-.577 2.025-1.587 2.025-.503 0-1.002-.228-1.12-.648h-.043c-.118.416-.543.643-1.015.643-.77 0-1.259-.542-1.259-1.434v-.529c0-.844.481-1.4 1.26-1.4.585 0 .87.333.953.63h.03v-.568h.905v2.19c0 .272.18.42.411.42.315 0 .639-.415.639-1.39v-.118c0-1.277-.95-2.326-2.484-2.326h-.04c-1.582 0-2.64 1.067-2.64 2.724v.157c0 1.867 1.237 2.654 2.57 2.654h.045c.507 0 .935-.07 1.18-.18v.731c-.219.1-.643.175-1.237.175h-.044C10.438 16 9 14.82 9 12.646v-.214C9 10.36 10.421 9 12.485 9h.035c2.12 0 3.314 1.43 3.314 3.034zm-4.04.21v.227c0 .586.227.8.581.8.31 0 .564-.17.564-.743v-.367c0-.516-.275-.708-.572-.708-.346 0-.573.245-.573.791"
-									/>
-								</svg>
-								Email
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<section class="about vh-75" id="about">
-			<div class="container">
-				<h2 class="py-5 text-center">About Me</h2>
-				<p class="width-70 text-center">
-					Hey! I am Nicholas Ng, a software engineer at Swift. I love doing physically challenging activities,
-					like coding where I smash my keyboard while trying to make things work. Jokes aside, I enjoy playing
-					sports, video games or going on an adventure. Feel free to drop me a message below or a connect on
-					LinkedIn.
-				</p>
-				<div class="mt-3">
-					<div class="accordion" id="accordion-skills">
-						<div class="accordion-item">
-							<h2 class="accordion-header" id="heading-one">
-								<button
-									class="accordion-button"
-									type="button"
-									data-bs-toggle="collapse"
-									data-bs-target="#collapse-one"
-								>
-									Languages and Frameworks
-								</button>
-							</h2>
-							<div
-								id="collapse-one"
-								class="accordion-collapse collapse show"
-								data-bs-parent="#accordion-skills"
-							>
-								<div class="accordion-body">
-									<ul>
-										<li>Java</li>
-										<li>Spring Boot</li>
-										<li>Maven</li>
-										<li>C++</li>
-										<li>Node.js</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						<div class="accordion-item">
-							<h2 class="accordion-header" id="heading-two">
-								<button
-									class="accordion-button collapsed"
-									type="button"
-									data-bs-toggle="collapse"
-									data-bs-target="#collapse-two"
-								>
-									Web Technologies
-								</button>
-							</h2>
-							<div
-								id="collapse-two"
-								class="accordion-collapse collapse"
-								data-bs-parent="#accordion-skills"
-							>
-								<div class="accordion-body">
-									<ul>
-										<li>React</li>
-										<li>JavaScript</li>
-										<li>HyperText Markup Language (HTML)</li>
-										<li>Cascading Style Sheets (CSS)</li>
-										<li>Bootstrap</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						<div class="accordion-item">
-							<h2 class="accordion-header" id="heading-three">
-								<button
-									class="accordion-button collapsed"
-									type="button"
-									data-bs-toggle="collapse"
-									data-bs-target="#collapse-three"
-								>
-									Tools and Technologies
-								</button>
-							</h2>
-							<div
-								id="collapse-three"
-								class="accordion-collapse collapse"
-								data-bs-parent="#accordion-skills"
-							>
-								<div class="accordion-body">
-									<ul>
-										<li>Git</li>
-										<li>Red Hat Enterprise Linux (RHEL)</li>
-										<li>Jenkins</li>
-										<li>Bash</li>
-										<li>Docker Compose</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						<div class="accordion-item">
-							<h2 class="accordion-header" id="heading-four">
-								<button
-									class="accordion-button collapsed"
-									type="button"
-									data-bs-toggle="collapse"
-									data-bs-target="#collapse-four"
-								>
-									Database
-								</button>
-							</h2>
-							<div
-								id="collapse-four"
-								class="accordion-collapse collapse"
-								data-bs-parent="#accordion-skills"
-							>
-								<div class="accordion-body">
-									<ul>
-										<li>MongoDB</li>
-										<li>MySQL</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="text-center p-4">
-					<a href="/assets/Resume-NicholasNg.pdf" download="Resume-NicholasNg">
-						<button type="button" class="btn btn-primary">
-							<svg
-								xmlns="http://www.w3.org/2000/svg"
-								width="16"
-								height="16"
-								fill="currentColor"
-								class="bi bi-file-earmark-arrow-down-fill"
-								viewBox="0 0 16 16"
-							>
-								<path
-									d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0M9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1m-1 4v3.793l1.146-1.147a.5.5 0 0 1 .708.708l-2 2a.5.5 0 0 1-.708 0l-2-2a.5.5 0 0 1 .708-.708L7.5 11.293V7.5a.5.5 0 0 1 1 0"
-								/>
-							</svg>
-							Download Resume
-						</button>
-					</a>
-				</div>
-			</div>
-		</section>
-		<section class="project text-center" id="project">
-			<div class="container">
-				<h2 class="font-weight-bold pt-5 pb-2">My Projects</h2>
-				<p class="text-muted">Some of the projects I completed in the past.</p>
-				<div class="card-group">
-					<div class="row">
-						<div class="card pt-3 my-3 col-lg-6 col-12 bg-light border-light shadow">
-							<div class="view overlay">
-								<img src="./assets/MEA.png" class="img-fluid rounded" alt="JS Calculator" />
-							</div>
-							<div class="card-body h-75 d-flex flex-column flex-1 m-0">
-								<h4 class="font-weight-bold">MEA Aquaponics</h4>
-								<ul class="text-start">
-									<li>E-commerce system with forum feature.</li>
-									<li>Allows user to buy aquaponics accessories.</li>
-									<li>Allows user to discuss about aquaponic.</li>
-									<li>MongoDB, Express.js, React.js and Node.js.</li>
-								</ul>
-								<div class="mt-auto">
-									<a
-										href="https://mea-aquaponics.netlify.app/"
-										target="_blank"
-										class="btn btn-primary btn-sm mt-auto"
-										><svg
-											xmlns="http://www.w3.org/2000/svg"
-											width="16"
-											height="16"
-											fill="currentColor"
-											class="bi bi-pc-display"
-											viewBox="0 0 16 16"
-										>
-											<path
-												d="M8 1a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1zm1 13.5a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0m2 0a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0M9.5 1a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1zM9 3.5a.5.5 0 0 0 .5.5h5a.5.5 0 0 0 0-1h-5a.5.5 0 0 0-.5.5M1.5 2A1.5 1.5 0 0 0 0 3.5v7A1.5 1.5 0 0 0 1.5 12H6v2h-.5a.5.5 0 0 0 0 1H7v-4H1.5a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .5-.5H7V2z"
-											/>
-										</svg>
-										Demo</a
-									>
-									<a
-										href="https://github.com/nicholas-ngzy/oxyganates"
-										target="_blank"
-										class="btn btn-primary btn-sm mt-auto"
-										><svg
-											xmlns="http://www.w3.org/2000/svg"
-											width="16"
-											height="16"
-											fill="currentColor"
-											class="bi bi-code-slash"
-											viewBox="0 0 16 16"
-										>
-											<path
-												d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0m6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0"
-											/>
-										</svg>
-										Code</a
-									>
-								</div>
-							</div>
-						</div>
-						<div class="card pt-3 my-3 col-lg-6 col-12 bg-light border-light shadow">
-							<div class="view overlay">
-								<img src="./assets/algocalc.png" class="img-fluid rounded" alt="AlgoCalc" />
-							</div>
-							<div class="card-body h-75 d-flex flex-column flex-1 m-0">
-								<h4 class="font-weight-bold">AlgoCalc</h4>
-								<ul class="text-start">
-									<li>Calculator to calculate investment return</li>
-									<li>React.js and shadcn/ui</li>
-								</ul>
-								<div class="mt-auto">
-									<a
-										href="https://nicholas-ngzy.github.io/algocalc/"
-										target="_blank"
-										class="btn btn-primary btn-sm mt-auto"
-										><svg
-											xmlns="http://www.w3.org/2000/svg"
-											width="16"
-											height="16"
-											fill="currentColor"
-											class="bi bi-pc-display"
-											viewBox="0 0 16 16"
-										>
-											<path
-												d="M8 1a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1zm1 13.5a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0m2 0a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0M9.5 1a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1zM9 3.5a.5.5 0 0 0 .5.5h5a.5.5 0 0 0 0-1h-5a.5.5 0 0 0-.5.5M1.5 2A1.5 1.5 0 0 0 0 3.5v7A1.5 1.5 0 0 0 1.5 12H6v2h-.5a.5.5 0 0 0 0 1H7v-4H1.5a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .5-.5H7V2z"
-											/>
-										</svg>
-										Demo</a
-									>
-									<a
-										href="https://github.com/nicholas-ngzy/algocalc"
-										target="_blank"
-										class="btn btn-primary btn-sm mt-auto"
-										><svg
-											xmlns="http://www.w3.org/2000/svg"
-											width="16"
-											height="16"
-											fill="currentColor"
-											class="bi bi-code-slash"
-											viewBox="0 0 16 16"
-										>
-											<path
-												d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0m6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0"
-											/>
-										</svg>
-										Code</a
-									>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<section class="contact" id="contact">
-			<div class="container py-5">
-				<h2>Contact Me</h2>
-				<p class="text-muted">I would love to hear more from you.</p>
-				<form name="feedback" method="POST" action="https://formspree.io/f/xqknopvb">
-					<div class="mb-3">
-						<label for="name" class="form-label">Name</label>
-						<input type="text" class="form-control" id="name" name="name" />
-					</div>
-					<div class="mb-3">
-						<label for="email" class="form-label">Email</label>
-						<input type="email" class="form-control" id="email" name="email" />
-					</div>
-					<div class="mb-3">
-						<label for="message" class="form-label">Message</label>
-						<textarea class="form-control" id="message" cols="30" rows="5" name="message"></textarea>
-					</div>
-					<div class="text-center mt-5 mb-3">
-						<button class="btn btn-primary" type="submit">
-							<svg
-								xmlns="http://www.w3.org/2000/svg"
-								width="16"
-								height="16"
-								fill="currentColor"
-								class="bi bi-send-check-fill"
-								viewBox="0 0 16 16"
-							>
-								<path
-									d="M15.964.686a.5.5 0 0 0-.65-.65L.767 5.855H.766l-.452.18a.5.5 0 0 0-.082.887l.41.26.001.002 4.995 3.178 1.59 2.498C8 14 8 13 8 12.5a4.5 4.5 0 0 1 5.026-4.47zm-1.833 1.89L6.637 10.07l-.215-.338a.5.5 0 0 0-.154-.154l-.338-.215 7.494-7.494 1.178-.471z"
-								/>
-								<path
-									d="M16 12.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0m-1.993-1.679a.5.5 0 0 0-.686.172l-1.17 1.95-.547-.547a.5.5 0 0 0-.708.708l.774.773a.75.75 0 0 0 1.174-.144l1.335-2.226a.5.5 0 0 0-.172-.686"
-								/>
-							</svg>
-							Send
-						</button>
-					</div>
-				</form>
-			</div>
-		</section>
-		<div class="footer text-center p-3 text-muted">
-			<p>&copy 2026 Nicholas Ng. All rights reserved.</p>
-		</div>
-		<script
-			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-			integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-			crossorigin="anonymous"
-		></script>
-	</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Nicholas Ng</title>
+        <link rel="stylesheet" href="style.css" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+            crossorigin="anonymous"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Poppins&family=VT323&display=swap" rel="stylesheet" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png" />
+        <link rel="manifest" href="/assets/site.webmanifest" />
+    </head>
+    <body>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <span class="navbar-brand">Nicholas Ng</span>
+                <button class="navbar-toggler text-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-nav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbar-nav">
+                    <div class="navbar-nav">
+                        <a href="#home" class="nav-link mx-2">Home</a>
+                        <a href="#about" class="nav-link mx-2">About</a>
+                        <a href="#project" class="nav-link mx-2">Project</a>
+                        <a href="#contact" class="nav-link mx-2">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <section class="intro vh-100 d-flex justify-content-center align-items-center" id="home">
+            <div class="container">
+                <div class="d-flex flex-column justify-content-center align-items-center text-center">
+                    <div>
+                        <p class="h1 my-5 mono-text">Hello World!</p>
+                        <p class="h3 m-3">I'm <strong>Nicholas Ng</strong></p>
+                        <div class="d-inline-flex justify-content-center wrapper mt-2 mb-4">
+                            <p class="text-end">I am a</p>
+                            <ul class="px-2 text-danger dynamic-text">
+                                <li class="list-unstyled text-start">
+                                    <span>Software Engineer</span>
+                                </li>
+                                <li class="list-unstyled text-start">
+                                    <span>Developer</span>
+                                </li>
+                                <li class="list-unstyled text-start">
+                                    <span>Cloudgazer</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="social-list d-flex justify-content-between mx-auto px-1">
+                            <a class="icon-link social-list-link" href="https://www.linkedin.com/in/nicholas-ngzy">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="16"
+                                    height="16"
+                                    fill="currentColor"
+                                    class="bi bi-linkedin"
+                                    viewBox="0 0 16 16"
+                                >
+                                    <path
+                                        d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"
+                                    />
+                                </svg>
+                                LinkedIn
+                            </a>
+                            <a class="icon-link social-list-link" href="https://github.com/nicholas-ngzyy">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="16"
+                                    height="16"
+                                    fill="currentColor"
+                                    class="bi bi-github"
+                                    viewBox="0 0 16 16"
+                                >
+                                    <path
+                                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"
+                                    />
+                                </svg>
+                                Github
+                            </a>
+                            <a class="icon-link social-list-link" href="mailto:nicholasngzy@gmail.com">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="16"
+                                    height="16"
+                                    fill="currentColor"
+                                    class="bi bi-envelope-at-fill"
+                                    viewBox="0 0 16 16"
+                                >
+                                    <path
+                                        d="M2 2A2 2 0 0 0 .05 3.555L8 8.414l7.95-4.859A2 2 0 0 0 14 2zm-2 9.8V4.698l5.803 3.546zm6.761-2.97-6.57 4.026A2 2 0 0 0 2 14h6.256A4.5 4.5 0 0 1 8 12.5a4.49 4.49 0 0 1 1.606-3.446l-.367-.225L8 9.586zM16 9.671V4.697l-5.803 3.546.338.208A4.5 4.5 0 0 1 12.5 8c1.414 0 2.675.652 3.5 1.671"
+                                    />
+                                    <path
+                                        d="M15.834 12.244c0 1.168-.577 2.025-1.587 2.025-.503 0-1.002-.228-1.12-.648h-.043c-.118.416-.543.643-1.015.643-.77 0-1.259-.542-1.259-1.434v-.529c0-.844.481-1.4 1.26-1.4.585 0 .87.333.953.63h.03v-.568h.905v2.19c0 .272.18.42.411.42.315 0 .639-.415.639-1.39v-.118c0-1.277-.95-2.326-2.484-2.326h-.04c-1.582 0-2.64 1.067-2.64 2.724v.157c0 1.867 1.237 2.654 2.57 2.654h.045c.507 0 .935-.07 1.18-.18v.731c-.219.1-.643.175-1.237.175h-.044C10.438 16 9 14.82 9 12.646v-.214C9 10.36 10.421 9 12.485 9h.035c2.12 0 3.314 1.43 3.314 3.034zm-4.04.21v.227c0 .586.227.8.581.8.31 0 .564-.17.564-.743v-.367c0-.516-.275-.708-.572-.708-.346 0-.573.245-.573.791"
+                                    />
+                                </svg>
+                                Email
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about vh-75" id="about">
+            <div class="container">
+                <h2 class="py-5 text-center">About Me</h2>
+                <p class="width-70 text-center">
+                    Hey! I am Nicholas Ng, a software engineer at Swift. I love doing physically challenging activities, like coding where I smash my
+                    keyboard while trying to make things work. Jokes aside, I enjoy playing sports, video games or going on an adventure. Feel free to
+                    drop me a message below or a connect on LinkedIn.
+                </p>
+                <div class="mt-3">
+                    <div class="accordion" id="accordion-skills">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading-one">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-one">
+                                    Languages and Frameworks
+                                </button>
+                            </h2>
+                            <div id="collapse-one" class="accordion-collapse collapse show" data-bs-parent="#accordion-skills">
+                                <div class="accordion-body">
+                                    <ul>
+                                        <li>Java</li>
+                                        <li>Spring Boot</li>
+                                        <li>Maven</li>
+                                        <li>C++</li>
+                                        <li>Node.js</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading-two">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-two">
+                                    Web Technologies
+                                </button>
+                            </h2>
+                            <div id="collapse-two" class="accordion-collapse collapse" data-bs-parent="#accordion-skills">
+                                <div class="accordion-body">
+                                    <ul>
+                                        <li>React</li>
+                                        <li>JavaScript</li>
+                                        <li>HyperText Markup Language (HTML)</li>
+                                        <li>Cascading Style Sheets (CSS)</li>
+                                        <li>Bootstrap</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading-three">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-three">
+                                    Tools and Technologies
+                                </button>
+                            </h2>
+                            <div id="collapse-three" class="accordion-collapse collapse" data-bs-parent="#accordion-skills">
+                                <div class="accordion-body">
+                                    <ul>
+                                        <li>Git</li>
+                                        <li>Red Hat Enterprise Linux (RHEL)</li>
+                                        <li>Jenkins</li>
+                                        <li>Bash</li>
+                                        <li>Docker Compose</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading-four">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-four">
+                                    Database
+                                </button>
+                            </h2>
+                            <div id="collapse-four" class="accordion-collapse collapse" data-bs-parent="#accordion-skills">
+                                <div class="accordion-body">
+                                    <ul>
+                                        <li>MongoDB</li>
+                                        <li>MySQL</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center p-4">
+                    <a href="/assets/Resume-NicholasNg.pdf" download="Resume-NicholasNg">
+                        <button type="button" class="btn btn-primary">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                fill="currentColor"
+                                class="bi bi-file-earmark-arrow-down-fill"
+                                viewBox="0 0 16 16"
+                            >
+                                <path
+                                    d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0M9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1m-1 4v3.793l1.146-1.147a.5.5 0 0 1 .708.708l-2 2a.5.5 0 0 1-.708 0l-2-2a.5.5 0 0 1 .708-.708L7.5 11.293V7.5a.5.5 0 0 1 1 0"
+                                />
+                            </svg>
+                            Download Resume
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="project text-center" id="project">
+            <div class="container">
+                <h2 class="font-weight-bold pt-5 pb-2">My Projects</h2>
+                <p class="text-muted">Some of the projects I completed in the past.</p>
+                <div class="card-group">
+                    <div class="row">
+                        <div class="card pt-3 my-3 col-lg-6 col-12 bg-light border-light shadow">
+                            <div class="view overlay">
+                                <img src="./assets/MEA.png" class="img-fluid rounded" alt="JS Calculator" />
+                            </div>
+                            <div class="card-body h-75 d-flex flex-column flex-1 m-0">
+                                <h4 class="font-weight-bold">MEA Aquaponics</h4>
+                                <ul class="text-start">
+                                    <li>E-commerce system with forum feature.</li>
+                                    <li>Allows user to buy aquaponics accessories.</li>
+                                    <li>Allows user to discuss about aquaponic.</li>
+                                    <li>MongoDB, Express.js, React.js and Node.js.</li>
+                                </ul>
+                                <div class="mt-auto">
+                                    <a href="https://mea-aquaponics.netlify.app/" target="_blank" class="btn btn-primary btn-sm mt-auto"
+                                        ><svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="16"
+                                            height="16"
+                                            fill="currentColor"
+                                            class="bi bi-pc-display"
+                                            viewBox="0 0 16 16"
+                                        >
+                                            <path
+                                                d="M8 1a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1zm1 13.5a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0m2 0a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0M9.5 1a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1zM9 3.5a.5.5 0 0 0 .5.5h5a.5.5 0 0 0 0-1h-5a.5.5 0 0 0-.5.5M1.5 2A1.5 1.5 0 0 0 0 3.5v7A1.5 1.5 0 0 0 1.5 12H6v2h-.5a.5.5 0 0 0 0 1H7v-4H1.5a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .5-.5H7V2z"
+                                            />
+                                        </svg>
+                                        Demo</a
+                                    >
+                                    <a href="https://github.com/nicholas-ngzy/oxyganates" target="_blank" class="btn btn-primary btn-sm mt-auto"
+                                        ><svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="16"
+                                            height="16"
+                                            fill="currentColor"
+                                            class="bi bi-code-slash"
+                                            viewBox="0 0 16 16"
+                                        >
+                                            <path
+                                                d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0m6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0"
+                                            />
+                                        </svg>
+                                        Code</a
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card pt-3 my-3 col-lg-6 col-12 bg-light border-light shadow">
+                            <div class="view overlay">
+                                <img src="./assets/algocalc.png" class="img-fluid rounded" alt="AlgoCalc" />
+                            </div>
+                            <div class="card-body h-75 d-flex flex-column flex-1 m-0">
+                                <h4 class="font-weight-bold">AlgoCalc</h4>
+                                <ul class="text-start">
+                                    <li>Calculator to calculate investment return</li>
+                                    <li>React.js and shadcn/ui</li>
+                                </ul>
+                                <div class="mt-auto">
+                                    <a href="https://nicholas-ngzy.github.io/algocalc/" target="_blank" class="btn btn-primary btn-sm mt-auto"
+                                        ><svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="16"
+                                            height="16"
+                                            fill="currentColor"
+                                            class="bi bi-pc-display"
+                                            viewBox="0 0 16 16"
+                                        >
+                                            <path
+                                                d="M8 1a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1zm1 13.5a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0m2 0a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0M9.5 1a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1zM9 3.5a.5.5 0 0 0 .5.5h5a.5.5 0 0 0 0-1h-5a.5.5 0 0 0-.5.5M1.5 2A1.5 1.5 0 0 0 0 3.5v7A1.5 1.5 0 0 0 1.5 12H6v2h-.5a.5.5 0 0 0 0 1H7v-4H1.5a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .5-.5H7V2z"
+                                            />
+                                        </svg>
+                                        Demo</a
+                                    >
+                                    <a href="https://github.com/nicholas-ngzy/algocalc" target="_blank" class="btn btn-primary btn-sm mt-auto"
+                                        ><svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="16"
+                                            height="16"
+                                            fill="currentColor"
+                                            class="bi bi-code-slash"
+                                            viewBox="0 0 16 16"
+                                        >
+                                            <path
+                                                d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0m6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0"
+                                            />
+                                        </svg>
+                                        Code</a
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <div class="container py-5">
+                <h2>Contact Me</h2>
+                <p class="text-muted">I would love to hear more from you.</p>
+                <form name="feedback" method="POST" action="https://formspree.io/f/xqknopvb">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" name="name" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" name="email" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" cols="30" rows="5" name="message"></textarea>
+                    </div>
+                    <div class="text-center mt-5 mb-3">
+                        <button class="btn btn-primary" type="submit">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                fill="currentColor"
+                                class="bi bi-send-check-fill"
+                                viewBox="0 0 16 16"
+                            >
+                                <path
+                                    d="M15.964.686a.5.5 0 0 0-.65-.65L.767 5.855H.766l-.452.18a.5.5 0 0 0-.082.887l.41.26.001.002 4.995 3.178 1.59 2.498C8 14 8 13 8 12.5a4.5 4.5 0 0 1 5.026-4.47zm-1.833 1.89L6.637 10.07l-.215-.338a.5.5 0 0 0-.154-.154l-.338-.215 7.494-7.494 1.178-.471z"
+                                />
+                                <path
+                                    d="M16 12.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0m-1.993-1.679a.5.5 0 0 0-.686.172l-1.17 1.95-.547-.547a.5.5 0 0 0-.708.708l.774.773a.75.75 0 0 0 1.174-.144l1.335-2.226a.5.5 0 0 0-.172-.686"
+                                />
+                            </svg>
+                            Send
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <div class="footer text-center p-3 text-muted">
+            <p>&copy 2026 Nicholas Ng. All rights reserved.</p>
+        </div>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+            crossorigin="anonymous"
+        ></script>
+    </body>
 </html>
